@@ -1,0 +1,8 @@
+opencv-python
+scikit-learn
+cmake
+dlib
+torch
+torchvision
+torchaudio
+numpy
