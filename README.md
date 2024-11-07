@@ -54,10 +54,10 @@ Certifique-se de que o `torch` e o `torchvision` estão instalados e atualizados
 python main.py
 ```
 
-3. O resultado será salvo na pasta `output/clusters`. Cada cluster será salvo em uma pasta separada e rotulada com base na similaridade dos rostos, por exemplo, `cluster_-1_1`, `cluster_-1_2`, etc.
+3. O resultado será salvo na pasta `output/clusters`. O cluster será salvo em uma pasta separada e rotulada com base na similaridade dos rostos, por exemplo, `cluster_-1`.
 
 ## Exemplos de Saída
 
-Cada pasta `cluster_<label>_<counter>` conterá imagens que foram agrupadas com base na similaridade dos rostos. A estrutura da saída será:
+Cada pasta `cluster_<label>` conterá imagens que foram agrupadas com base na similaridade dos rostos. A estrutura da saída será:
 
 ![Estrutura](./images/output.png)
