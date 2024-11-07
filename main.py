@@ -7,10 +7,10 @@ OUTPUT_PATH = 'output/clusters'
 def main():
     images, image_paths = load_images_from_subdirectories(DATA_PATH)
     features = extract_features(images)
-    clustering = DBSCAN(metric='euclidean', eps=0.5, min_samples=2).fit(features)
+    clustering = DBSCAN(metric='euclidean', eps=1.0, min_samples=2).fit(features)
     labels = clustering.labels_
     
-    visualize_clusters(labels, images, image_paths, OUTPUT_PATH)
+    visualize_clusters(labels, images, image_paths, DATA_PATH, OUTPUT_PATH)
 
 if __name__ == "__main__":
     main()
