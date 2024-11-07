@@ -12,7 +12,7 @@ Este projeto realiza o agrupamento de imagens de rostos por semelhança usando *
 
 ### 1. Configurar o Ambiente de Desenvolvimento
 
-Certifique-se de que o Python 3.11.0 está instalado e crie um ambiente virtual:
+Certifique-se de que o `Python 3.11.0` está instalado e crie um ambiente virtual:
 
 ```bash
 python -m venv venv
